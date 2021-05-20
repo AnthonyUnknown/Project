@@ -1,0 +1,156 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Site</title>
+            <link href="projectstyle.css" rel="stylesheet" type="text/css" />
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+        </head>
+    <body>
+        <div class="page">
+            <div class="header_wrapper">
+                <div class="title_header"><strong>ОСТАВЬТЕ СВОЙ ОТЗЫВ</strong></div>
+                <div class="under_title_header">ПОМОГИТЕ НАШИМ ОТЕЛЯМ СТАТЬ ЛУЧШЕ! ОСТАВЬТЕ ОТЗЫВ О НИХ,<br>А ТАКЖЕ О ПОСЕЩЕННЫХ ВАМИ ДОСТОПРИМЕЧАТЕЛЬНОСТЯХ</div>
+            </div>
+            <div class="block1">
+                <div class="block1_left">
+                    <div class="block1_left_headtext"><strong>ВАШЕ ОБЩЕЕ ВПЕЧАТЛЕНИЕ:</strong></div>
+                    <div class="form_radio">
+                        <input id="radio-1" type="radio" value="1" checked name="one">
+                        <label class="label1" for="radio-1">Скорее положительное</label>
+                    </div>
+                    <div class="form_radio">
+                        <input id="radio-2" type="radio" value="2" name="one">
+                        <label for="radio-2">Скорее отрицательное</label>
+                    </div>
+                    <div class="form_radio">
+                        <input id="radio-3" type="radio" value="3" name="one">
+                        <label for="radio-3">Затрудняюсь ответить</label>
+                    </div>
+                </div>
+                <div class="block1_right">   
+                    <div class="block1_right_headtext"><strong>ПРЕДСТАВЬТЕСЬ:</strong></div>
+                    <div class="border_block1">  
+                    <div class="contacts">
+                        <div class="row1">ИМЯ*:
+                        </div>
+                        <div class="form_righttext">
+                            <input id="text-1" type="text" value="ПЕТР">
+                        </div>
+                    </div>
+                    <div class="contacts">
+                        <div class="row2">ФАМИЛИЯ*:
+                        </div>   
+                        <div class="form_righttext">
+                            <input id="text-2" type="text" value="ИВАНОВ">
+                        </div>
+                    </div>
+                    <div class="contacts">
+                        <div class="row3">ОТЧЕСТВО:
+                        </div>    
+                        <div class="form_righttext">
+                            <input id="text-3" type="text" value="АЛЕКСАНДРОВИЧ">
+                        </div>
+                    </div>
+                    </div>  
+                </div>
+            </div>
+            <div class="block2">
+                <div class="contacts-information"><strong>КОНТАКТНАЯ ИНФОРМАЦИЯ:</strong></div>
+            </div>
+            <div class="block3">
+                <div class="block3_left">
+                    <div class="phone">ТЕЛЕФОН*:</div> 
+                    <div class="form_phone">
+                        <input id="text-4" type="text" value="ВВЕДИТЕ ТЕЛЕФОН">
+                    </div>
+                    <div class="rectangle1">
+                        <div class="img_phone"><img src="phone.png" width="49" height="49"></div>
+                    </div>
+                </div>
+                <div class="block3_right">
+                    <div class="mail">ЭЛЕКТРОННАЯ ПОЧТА*:</div>
+                    <div class="form_mail">
+                        <input id="text-5" type="text" value="ВВЕДИТЕ E-MAIL">
+                    </div>
+                    <div class="rectangle2">
+                        <div class="img_mail"><img src="mail.png" width="49" height="49"></div>
+                    </div>
+                </div>
+                <div class="not_filled">
+                    <div class="not_filled1"><strong>ПОЛЕ НЕ ЗАПОЛНЕНО</strong></div>
+                    <div class="not_filled2"><strong>ПОЛЕ НЕ ЗАПОЛНЕНО</strong></div>
+                </div>    
+            </div>
+            <div class="block4">
+                <div class="details"><strong>ДЕТАЛИ ПОЕЗДКИ:</strong></div>
+            </div>
+            <div class="block5">
+                <div class="date">
+                    <span class="date_travel">Даты поездки:</span>
+                    <div class="date_number">
+                        <input id="text6" type="text" value="22.10.2019-25.10.2019">
+                    </div>
+                </div>
+                <div class="selector">
+                    <select class="selector_option" size="1">
+                       <option class="option_country">Выберите страну:</option>     
+                        <option class="option_country_bel" value="1"><strong>Беларусь</strong></option>
+                        <option class="option_country_itl" value="2">Италия</option>
+                        <option class="option_country_est" value="3">Эстония</option>
+                    </select>
+                </div>
+                <div class="checkbox_box">
+                    <input type="checkbox" id="mountain" name="places">
+                    <label class="places_label" for="mountain">Гора лысая</label>
+                    <br>
+                    <br>
+                    <input type="checkbox" id="library" name="places">
+                    <label class="places_label" for="library">Национальная библиотека</label>
+                    <br>
+                    <br>
+                    <input type="checkbox" id="zoo" name="places">
+                    <label class="places_label" for="zoo">Гродненский зоопарк</label>
+                </div>
+                <div class="img_mountain"><img src="mount.png" width="250" height="187"></div>
+            </div>    
+            <div class="block6">
+                <div class="rate"><strong>ОЦЕНИТЕ КАЧЕСТВО УСЛУГ ГИДА:</strong></div>
+                <p class="own_lang">На родном языке</p>
+                <div class="sliders">
+                    <div class="switch1">
+                        <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                        </label>
+                    </div>    
+                    <div class="slidercontainer">
+                        <input type="range" min="1" max="100" value="50" class="sliderLong" id="myRange">
+                    </div>    
+                </div>          
+            </div>
+            <div class="block7">
+                <p class="own_lang">На языке посещенной страны</p>   
+                <div class="switch1">
+                    <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                    </label>
+                    <span class="noUse">Не пользовались</span>
+                </div>
+            </div>
+            <div class="block8">
+                <span class="gallery"><strong>ГАЛЕРЕЯ</strong></span>
+                <div class="buttonDown"><input class="buttonDownload" type="button" value="Загрузить файл"></div>
+                <div class="downImage"><img src="forest.png" width="270" height="228"></div>
+            </div>
+            <div class="block9">
+                <span class="emotions"><strong>ОПИШИТЕ СВОИ ЭМОЦИИ:</strong></span>
+                <div><textarea rows="10" cols="200" name="text"></textarea></div>
+                <div class="buttonLast"><input class="buttonDownload1" type="button" value="ОСТАВИТЬ ОТЗЫВ"></div>
+            </div>
+            </div>
+        </div>
+    </body>
+    </html>
